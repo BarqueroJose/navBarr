@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
    SegundoFragmento segundoFragmento = new SegundoFragmento();
    TercerFragmento tercerFragmento = new TercerFragmento();
    CuartoFragmento cuartoFragmento = new CuartoFragmento();
+   QuintoFragmento quintoFragmento = new QuintoFragmento();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +44,9 @@ public class MainActivity extends AppCompatActivity {
                 return true;
             } else if (itemId == R.id.cuartoFragmento) {
                 loadFragment(cuartoFragmento);
+                return true;
+            } else if (itemId == R.id.quintoFragmento) {
+                loadFragment(quintoFragmento);
                 return true;
             }
             return false;

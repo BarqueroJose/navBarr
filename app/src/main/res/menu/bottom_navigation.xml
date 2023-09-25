@@ -11,11 +11,16 @@
         android:icon="@drawable/vector"
         android:title="Inventario"/>
     <item
+        android:id="@+id/quintoFragmento"
+        android:icon="@drawable/venta"
+        android:title="Ventas"
+        />
+    <item
         android:id="@+id/tercerFragmento"
         android:icon="@drawable/vector2"
         android:title="Balance"/>
     <item
         android:id="@+id/cuartoFragmento"
         android:icon="@drawable/group"
-        android:title="Deudas"/>
+        android:title="Movimientos"/>
 </menu>
